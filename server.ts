@@ -147,6 +147,9 @@ async function startServer() {
         port: smtpPort,
         secure: secure,
         family: 4,
+        connectionTimeout: 15000,
+        greetingTimeout: 15000,
+        socketTimeout: 15000,
         auth: {
           user: smtpUser,
           pass: smtpPass,
