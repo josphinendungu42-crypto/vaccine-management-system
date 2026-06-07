@@ -140,6 +140,7 @@ async function startServer() {
         host: smtpHost,
         port: smtpPort,
         secure: secure,
+        family: 4,
         auth: {
           user: smtpUser,
           pass: smtpPass,
