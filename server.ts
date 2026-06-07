@@ -136,6 +136,12 @@ async function startServer() {
 
     try {
       console.log(`Attempting to send real SMTP Email to ${to}...`);
+      console.log({
+        smtpHost,
+        smtpPort,
+        secure,
+        smtpUser
+      });
       const transporter = nodemailer.createTransport({
         host: smtpHost,
         port: smtpPort,
