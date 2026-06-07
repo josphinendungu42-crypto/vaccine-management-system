@@ -143,13 +143,12 @@ async function startServer() {
         smtpUser
       });
       const transporter = nodemailer.createTransport({
-        host: '74.125.69.109',
+        host: smtpHost,
         port: smtpPort,
         secure: secure,
-        family: 4,
-        connectionTimeout: 15000,
-        greetingTimeout: 15000,
-        socketTimeout: 15000,
+        connectionTimeout: 30000,
+        greetingTimeout: 30000,
+        socketTimeout: 30000,
         auth: {
           user: smtpUser,
           pass: smtpPass,
