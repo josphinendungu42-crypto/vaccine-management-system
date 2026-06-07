@@ -155,6 +155,9 @@ async function startServer() {
         },
       });
 
+      await transporter.verify();
+      console.log("SMTP verification successful");
+
       const mailOptions = {
         from: smtpFrom,
         to: to,
