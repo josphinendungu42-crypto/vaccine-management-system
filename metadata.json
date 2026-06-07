@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Vaccine Administration and Stock Management System",
+  "description": "Comprehensive digital solution for user access control, patient records, vaccine administration, stock level monitoring with alerts, appointment scheduling, and coverage optimization reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
