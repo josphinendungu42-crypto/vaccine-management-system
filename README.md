@@ -2,7 +2,7 @@
 
 A web application to manage patient vaccine records, appointments, and vaccine inventory.
 
-**Tech Stack:** TypeScript, Vite, HTML, CSS
+**Tech Stack:** TypeScript, Vite, HTML, CSS, JavaScript
 
 **Features I Built:**
 - Patient registration and records
